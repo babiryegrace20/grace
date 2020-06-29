@@ -1,0 +1,67 @@
+
+#rectangle2 {
+  width: 100%;
+  position: relative;
+}
+
+#rectangle3 {
+  width: 100%;
+}
+
+#services {
+  width: 266px;
+  height: 28px;
+  align-content: center;
+  padding: 30px;
+  color: #ff4301;
+}
+
+#rectangle7 {
+  width: 100%;
+  height: 15px;
+  background-color: #ff4301;
+}
+
+.centered {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.center {
+  font-weight: bolder;
+  padding: 20px;
+}
+#grad1 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.84),
+      rgba(0, 0, 0, 0.86)
+    ),
+    url("assets/graceBabirye/images/Group 60.svg");
+  background-size:100% 100%;
+  height: 60vh;
+  position: relative;
+  width: 100%
+}
+
+#hr {
+  width: 186px;
+  height: 5px;
+  background-color: #ff4301;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media only screen  and (max-width:576px){
+  p{
+    font-size:14px
+  }
+  #grad1{
+    height:40vh
+  }
+}
